@@ -11,6 +11,6 @@ namespace TaskManager.Models
         public bool IsComplete {get; set;}
         
         public int UserId {get; set;}
-        public User User {get; set;} = null!;
+        public User User {get; set;} = null! ;
     }
 }
